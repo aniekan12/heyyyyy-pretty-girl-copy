@@ -22,32 +22,33 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: `Heyyyyy, my sweet sweet baby.`,
-      image: "/images/dise.JPG",
+      content: `hiii babes.`,
+      image: "/images/tolu.JPG",
     },
     {
-      content: `I look forward to more adventures, more dates—both our alphabetical ones and the spontaneous ones—and to constantly reassuring you, not just with words but with my actions that I love you, my Idiseye♥️
-      `,
+      content: `my chatgpt!, nottingham's finest, the sweetest babe alive! you're a dream wrapped in warmth and magic, lighting up my world like the stars in a midnight sky.`,
       image: "/character/two.png",
     },
 
     {
-      content: `You are the smartest, most peaceful, loving, and sweetest person I have ever had the joy of loving and cherishing, my Dise♥️.`,
-      image: "/images/my-sweet-sweet-babe.JPG",
+      content: `you're stupendously beautiful, with a brilliant mind that captivates me. every word from you feels like poetry, and you make me feel so incredibly special, safe, and warm in your presence.`,
+      image: "/images/omo.JPEG",
     },
+
     {
-      content: `I find myself longing for every moment with you—listening to your voice, 
-      getting lost in your smile, and completely mesmerized by those gorgeous dimples and breathtaking eyes.
-       Every second with you feels like magic. ❤️`,
+      content: `your voice is the sweetest and calmest i’ve ever heard—like a melody made just for my heart. i want to hear it all day, every day, because it feels like home to me.`,
       image: "/character/five.png",
     },
     {
-      content: "So now I've got a question for you…",
+      content:
+        "so now i've got a question for you… one that my heart has been whispering for a while.",
       image: "/character/six.png",
     },
+
     {
-      content: "Will you be my Valentine?",
-      image: "/images/will-you-be-my-valentine.JPG",
+      content:
+        "will you be my valentine? because no one else could ever make my heart feel the way you do. ❤️",
+      image: "/images/beauty.jpg",
     },
   ];
   const [currentStep, setCurrentStep] = useState(0);
