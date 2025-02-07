@@ -22,28 +22,23 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Heyyyyy, pretty girl.",
-      image: "/character/one.png",
+      content: `Heyyyyy, my sweet sweet baby.`,
+      image: "/images/dise.JPG",
     },
     {
-      content: `Recently, we met.
-      And somehow, you've been on my mind ever since.
+      content: `I look forward to more adventures, more dates—both our alphabetical ones and the spontaneous ones—and to constantly reassuring you, not just with words but with my actions that I love you, my Idiseye♥️
       `,
       image: "/character/two.png",
     },
+
     {
-      content: `Then we went on our first date…And I realized—yep, I want this girl. For life.
-      `,
-      image: "/character/three.png",
+      content: `You are the smartest, most peaceful, loving, and sweetest person I have ever had the joy of loving and cherishing, my Dise♥️.`,
+      image: "/images/my-sweet-sweet-babe.JPG",
     },
     {
-      content: `You're beautiful, you're smart, you're fun,
-and you make spending time together feel too short.`,
-      image: "/character/four.png",
-    },
-    {
-      content: `I look forward to when I'll see you again,
-hold your hands, and look into your pretty eyes.`,
+      content: `I find myself longing for every moment with you—listening to your voice, 
+      getting lost in your smile, and completely mesmerized by those gorgeous dimples and breathtaking eyes.
+       Every second with you feels like magic. ❤️`,
       image: "/character/five.png",
     },
     {
@@ -52,7 +47,7 @@ hold your hands, and look into your pretty eyes.`,
     },
     {
       content: "Will you be my Valentine?",
-      image: "/character/seven.png",
+      image: "/images/will-you-be-my-valentine.JPG",
     },
   ];
   const [currentStep, setCurrentStep] = useState(0);
@@ -105,7 +100,7 @@ hold your hands, and look into your pretty eyes.`,
           transition={{ duration: 0.5 }}
           src={steps[currentStep].image}
           alt=""
-          className="w-40"
+          className="w-40 mb-2"
         />
         <motion.div
           key={currentStep + "-text"}
