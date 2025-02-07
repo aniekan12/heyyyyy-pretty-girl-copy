@@ -78,7 +78,7 @@ function App() {
           transition={{ duration: 0.5 }}
         >
           <Confetti width={width} height={height} />
-          <div className="fixed top-0 left-0 w-full h-full bg-[#FFC5D3] flex flex-col items-center justify-center">
+          <div className="fixed top-0 left-0 w-full h-full bg-[#F88379] flex flex-col items-center justify-center">
             <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -95,7 +95,7 @@ function App() {
           </div>
         </motion.div>
       )}
-      <div className="bg-[#FFC5D3] min-h-screen text-white p-5 flex flex-col items-center justify-center max-w-md mx-auto">
+      <div className="bg-[#F88379] min-h-screen text-white p-5 flex flex-col items-center justify-center max-w-md mx-auto">
         <motion.img
           key={currentStep}
           initial={{ opacity: 0, y: 20 }}
@@ -119,14 +119,14 @@ function App() {
           <>
             <button
               onClick={() => setCurrentStep(currentStep + 1)}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#F88379] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Next
             </button>
             {currentStep > 0 && (
               <button
                 onClick={() => setCurrentStep(currentStep - 1)}
-                className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
+                className="bg-white text-[#F88379] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
               >
                 Back
               </button>
@@ -140,7 +140,7 @@ function App() {
                 setSheWantsToBeMyValentine(true);
                 await track();
               }}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#F88379] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Yes
             </button>
@@ -150,7 +150,7 @@ function App() {
                 setSheWantsToBeMyValentine(true);
                 await track();
               }}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
+              className="bg-white text-[#F88379] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
             >
               Yes
             </button>
