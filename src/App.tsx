@@ -66,6 +66,8 @@ function App() {
     });
   }, []);
 
+  console.log(currentStep);
+
   return (
     <>
       {sheWantsToBeMyValentine && (
@@ -112,7 +114,7 @@ function App() {
           {steps[currentStep].content}
         </motion.div>
 
-        {currentStep < 6 && (
+        {currentStep < 5 && (
           <>
             <button
               onClick={() => setCurrentStep(currentStep + 1)}
@@ -130,7 +132,7 @@ function App() {
             )}
           </>
         )}
-        {currentStep === 6 && (
+        {currentStep === 5 && (
           <>
             <button
               onClick={async () => {
