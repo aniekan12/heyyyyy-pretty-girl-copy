@@ -56,10 +56,7 @@ function App() {
   const { width, height } = useWindowSize();
 
   useEffect(() => {
-    const imagePaths = [
-      ...steps.map((step) => step.image),
-      "/character/yayyyy.png",
-    ];
+    const imagePaths = [...steps.map((step) => step.image), "/images/me.jpg"];
 
     imagePaths.forEach((path) => {
       const img = new Image();
@@ -87,11 +84,7 @@ function App() {
             >
               Yayyyyyyy!!!!!
             </motion.h1>
-            <img
-              src="/character/yayyyy.png"
-              alt=""
-              className="w-40 animate-bounce"
-            />
+            <img src="/images/me.jpg" alt="" className="w-40 animate-bounce" />
           </div>
         </motion.div>
       )}
